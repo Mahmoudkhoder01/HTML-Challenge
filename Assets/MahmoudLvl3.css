@@ -1,0 +1,151 @@
+body {
+  background-color: #212b2d;
+  margin: 2rem 10rem;
+  color: white;
+  line-height: 25px;
+}
+
+.bg-img {
+  background-image: url("/Assets/Title.PNG");
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 3rem 6rem;
+  width: auto;
+}
+
+.hh1 {
+  font-size: 80px;
+}
+
+.hh3 {
+  font-size: 60px;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  position: relative;
+  background-color: #333d3f;
+}
+
+ul li {
+  margin: 20px 3rem;
+}
+
+.navBar .borderAfter::after {
+  content: "";
+  background-color: white;
+  width: 1px;
+  height: 20px;
+  position: absolute;
+  margin-left: 42px;
+  margin-top: 3px;
+}
+
+.leftAside ul {
+  margin: 0;
+  padding: 0;
+}
+
+.leftAside li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+aside {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftAside {
+  width: 122%;
+  margin-right: 3rem;
+}
+
+.insideAside {
+  display: flex;
+  flex-direction: row;
+}
+
+.inside1 {
+  margin-right: 100px;
+}
+
+.inside1::after {
+  content: "";
+  background-color: white;
+  width: 1px;
+  height: 21rem;
+  position: absolute;
+  left: 50rem;
+  top: 51rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+}
+
+.contactFooter {
+  text-align: center;
+}
+
+.Forms {
+  margin: 20px;
+}
+
+label {
+  margin-right: 25px;
+}
+
+.inputContact {
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 10px;
+  width: 25%;
+}
+
+.inputRadio {
+  margin: 20px;
+}
+
+.l1 {
+  padding-right: 19px !important;
+}
+
+.btn {
+  background: #a8a8a8;
+  background-image: -webkit-linear-gradient(top, #a8a8a8, #525252);
+  background-image: -moz-linear-gradient(top, #a8a8a8, #525252);
+  background-image: -ms-linear-gradient(top, #a8a8a8, #525252);
+  background-image: -o-linear-gradient(top, #a8a8a8, #525252);
+  background-image: linear-gradient(to bottom, #a8a8a8, #525252);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #6b8b9e;
+  background-image: -webkit-linear-gradient(top, #6b8b9e, #56758a);
+  background-image: -moz-linear-gradient(top, #6b8b9e, #56758a);
+  background-image: -ms-linear-gradient(top, #6b8b9e, #56758a);
+  background-image: -o-linear-gradient(top, #6b8b9e, #56758a);
+  background-image: linear-gradient(to bottom, #6b8b9e, #56758a);
+  text-decoration: none;
+}

@@ -1,0 +1,13 @@
+body{
+   background-color:  #ededed;
+}
+
+menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+menu li{
+    margin: 0 40px;
+}
